@@ -54,7 +54,7 @@ class db {
                 database: third[1]
             };
         }
-        let devDb = "postgres://luke:nikmalik@localhost:5432/diminou";
+        let devDb = "postgres://ud3slfjks2bo9q:p12d250b85916f24b1f3f3336939b6b2d8f08cdb26f7449e4282a12828818523f@cer3tutrbi7n1t.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d8m5sorh1iah90";
         let relDb = "postgres://hytifqggxrvqcb:56304a76e3bbae08877eaad33f044f85143aa0323e1478baad8df571a0e39f71@ec2-63-33-239-176.eu-west-1.compute.amazonaws.com:5432/dcu8v2tjgmra5l";
         let data = extractData(process.env.DATABASE_URL || devDb);
 
