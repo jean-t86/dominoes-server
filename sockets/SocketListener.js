@@ -260,6 +260,8 @@ class SocketListener {
             state: "init",
             host: user_id,
             winner: -1,
+            boza: false,
+            turn: user_id,
             players: [
                 user_id,
                 -1,
